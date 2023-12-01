@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "remix:block/lemon_concrete_powder"
+      },
+      {
+        "model": "remix:block/lemon_concrete_powder",
+        "y": 90
+      },
+      {
+        "model": "remix:block/lemon_concrete_powder",
+        "y": 180
+      },
+      {
+        "model": "remix:block/lemon_concrete_powder",
+        "y": 270
+      }
+    ]
+  }
+}

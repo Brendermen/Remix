@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "remix:block/dirt_pillar_top",
+    "side": "remix:block/dirt_pillar"
+  }
+}
