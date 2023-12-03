@@ -180,6 +180,20 @@ public class Remix {
             event.accept(ModBlocks.TAN_TERRACOTTA);
             event.accept(ModBlocks.CREAM_TERRACOTTA);
 
+            event.accept(ModBlocks.FUCHSIA_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.SCARLET_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.AMBER_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.LEMON_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.FOREST_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.TEAL_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.CERULEAN_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.AZURE_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.INDIGO_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.VIOLET_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.VELVET_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.TAN_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.CREAM_TERRACOTTA_STAIRS);
+
             event.accept(ModBlocks.FUCHSIA_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.SCARLET_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.AMBER_TERRACOTTA_BRICKS);
@@ -193,6 +207,37 @@ public class Remix {
             event.accept(ModBlocks.VELVET_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.TAN_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.CREAM_TERRACOTTA_BRICKS);
+
+            event.accept(ModBlocks.FUCHSIA_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.SCARLET_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.AMBER_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.LEMON_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.FOREST_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.TEAL_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.CERULEAN_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.AZURE_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.INDIGO_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.VIOLET_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.VELVET_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.TAN_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.CREAM_TERRACOTTA_BRICK_STAIRS);
+
+            event.accept(ModBlocks.RED_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.LIME_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.PINK_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+            event.accept(ModBlocks.BROWN_TERRACOTTA_STAIRS);
 
             event.accept(ModBlocks.RED_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.ORANGE_TERRACOTTA_BRICKS);
@@ -210,6 +255,23 @@ public class Remix {
             event.accept(ModBlocks.GRAY_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.BLACK_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.BROWN_TERRACOTTA_BRICKS);
+
+            event.accept(ModBlocks.RED_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.ORANGE_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.YELLOW_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.LIME_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.GREEN_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.CYAN_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.BLUE_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.PURPLE_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.MAGENTA_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.PINK_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.WHITE_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.GRAY_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.BLACK_TERRACOTTA_BRICK_STAIRS);
+            event.accept(ModBlocks.BROWN_TERRACOTTA_BRICK_STAIRS);
 
             event.accept(ModBlocks.FUCHSIA_CONCRETE);
             event.accept(ModBlocks.SCARLET_CONCRETE);

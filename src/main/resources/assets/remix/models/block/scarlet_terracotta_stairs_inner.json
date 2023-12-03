@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "remix:block/scarlet_terracotta",
+    "side": "remix:block/scarlet_terracotta",
+    "top": "remix:block/scarlet_terracotta"
+  }
+}
