@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "remix:block/violet_terracotta_bricks",
+    "side": "remix:block/violet_terracotta_bricks",
+    "top": "remix:block/violet_terracotta_bricks"
+  }
+}
