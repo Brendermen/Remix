@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "remix:block/aqua_concrete"
+      "model": "remix:block/cerulean_concrete"
     }
   }
 }
