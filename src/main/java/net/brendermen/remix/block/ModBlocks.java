@@ -54,6 +54,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DIRT_TILES = registerBlock("dirt_tiles",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
 
+    public static final RegistryObject<Block> TERRACOTTA_BRICKS = registerBlock("terracotta_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)));
+
     public static final RegistryObject<RotatedPillarBlock> CHISELED_DIRT = registerBlock("chiseled_dirt",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
 

@@ -194,6 +194,7 @@ public class Remix {
             event.accept(ModBlocks.TAN_TERRACOTTA_STAIRS);
             event.accept(ModBlocks.CREAM_TERRACOTTA_STAIRS);
 
+            event.accept(ModBlocks.TERRACOTTA_BRICKS);
             event.accept(ModBlocks.FUCHSIA_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.SCARLET_TERRACOTTA_BRICKS);
             event.accept(ModBlocks.AMBER_TERRACOTTA_BRICKS);
