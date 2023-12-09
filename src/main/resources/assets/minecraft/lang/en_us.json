@@ -4,7 +4,11 @@
 
   "block.minecraft.chiseled_stone_bricks": "Chiseled Stone",
 
-  "block.minecraft.polished_blackstone_bricks": "Polished Blackstone",
+  "block.minecraft.polished_blackstone_bricks": "Blackstone Bricks",
+  "block.minecraft.cracked_polished_blackstone_bricks": "Cracked Blackstone Bricks",
+  "block.minecraft.polished_blackstone_brick_stairs": "Blackstone Brick Stairs",
+  "block.minecraft.polished_blackstone_brick_slab": "Blackstone Brick Slab",
+  "block.minecraft.polished_blackstone_brick_wall": "Blackstone Brick Wall",
 
   "block.minecraft.chiseled_polished_blackstone": "Chiseled Blackstone"
 }

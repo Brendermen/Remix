@@ -77,11 +77,13 @@ public class Remix {
             event.accept(ModBlocks.SANDSTONE_BRICKS);
             event.accept(ModBlocks.SANDSTONE_TILES);
             event.accept(ModBlocks.SANDSTONE_PILLAR);
+            event.accept(ModBlocks.SANDSTONE_FLOWER_POT);
 
             event.accept(ModBlocks.COBBLED_RED_SANDSTONE);
             event.accept(ModBlocks.RED_SANDSTONE_BRICKS);
             event.accept(ModBlocks.RED_SANDSTONE_TILES);
             event.accept(ModBlocks.RED_SANDSTONE_PILLAR);
+            event.accept(ModBlocks.RED_SANDSTONE_FLOWER_POT);
 
             event.accept(ModBlocks.POLISHED_STONE);
             event.accept(ModBlocks.STONE_TILES);
@@ -319,6 +321,20 @@ public class Remix {
             event.accept(ModBlocks.VELVET_STAINED_GLASS);
             event.accept(ModBlocks.TAN_STAINED_GLASS);
             event.accept(ModBlocks.CREAM_STAINED_GLASS);
+
+            event.accept(ModBlocks.FUCHSIA_FLOWER_POT);
+            event.accept(ModBlocks.SCARLET_FLOWER_POT);
+            event.accept(ModBlocks.AMBER_FLOWER_POT);
+            event.accept(ModBlocks.LEMON_FLOWER_POT);
+            event.accept(ModBlocks.FOREST_FLOWER_POT);
+            event.accept(ModBlocks.TEAL_FLOWER_POT);
+            event.accept(ModBlocks.CERULEAN_FLOWER_POT);
+            event.accept(ModBlocks.AZURE_FLOWER_POT);
+            event.accept(ModBlocks.INDIGO_FLOWER_POT);
+            event.accept(ModBlocks.VIOLET_FLOWER_POT);
+            event.accept(ModBlocks.VELVET_FLOWER_POT);
+            event.accept(ModBlocks.TAN_FLOWER_POT);
+            event.accept(ModBlocks.CREAM_FLOWER_POT);
 
             event.accept(ModBlocks.RED_FLOWER_POT);
             event.accept(ModBlocks.ORANGE_FLOWER_POT);

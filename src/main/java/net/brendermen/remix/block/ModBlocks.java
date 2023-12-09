@@ -875,6 +875,36 @@ public class ModBlocks {
             () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "deepslate"));
     public static final RegistryObject<Block> ANDESITE_FLOWER_POT = registerBlock("andesite_flower_pot",
             () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "andesite"));
+    public static final RegistryObject<Block> SANDSTONE_FLOWER_POT = registerBlock("sandstone_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "sandstone"));
+    public static final RegistryObject<Block> RED_SANDSTONE_FLOWER_POT = registerBlock("red_sandstone_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "red_sandstone"));
+    public static final RegistryObject<Block> FUCHSIA_FLOWER_POT = registerBlock("fuchsia_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "fuchsia"));
+    public static final RegistryObject<Block> SCARLET_FLOWER_POT = registerBlock("scarlet_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "scarlet"));
+    public static final RegistryObject<Block> AMBER_FLOWER_POT = registerBlock("amber_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "amber"));
+    public static final RegistryObject<Block> LEMON_FLOWER_POT = registerBlock("lemon_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "lemon"));
+    public static final RegistryObject<Block> FOREST_FLOWER_POT = registerBlock("forest_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "forest"));
+    public static final RegistryObject<Block> TEAL_FLOWER_POT = registerBlock("teal_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "teal"));
+    public static final RegistryObject<Block> CERULEAN_FLOWER_POT = registerBlock("cerulean_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "cerulean"));
+    public static final RegistryObject<Block> AZURE_FLOWER_POT = registerBlock("azure_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "azure"));
+    public static final RegistryObject<Block> INDIGO_FLOWER_POT = registerBlock("indigo_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "indigo"));
+    public static final RegistryObject<Block> VIOLET_FLOWER_POT = registerBlock("violet_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "violet"));
+    public static final RegistryObject<Block> VELVET_FLOWER_POT = registerBlock("velvet_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "velvet"));
+    public static final RegistryObject<Block> TAN_FLOWER_POT = registerBlock("tan_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "tan"));
+    public static final RegistryObject<Block> CREAM_FLOWER_POT = registerBlock("cream_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "cream"));
 
     public static final RegistryObject<Block> WARPED_NETHER_BRICKS = registerBlock("warped_nether_bricks",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)));

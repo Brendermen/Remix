@@ -197,6 +197,20 @@
   "block.remix.tan_stained_glass": "Tan Stained Glass",
   "block.remix.cream_stained_glass": "Cream Stained Glass",
 
+  "block.remix.fuchsia_flower_pot": "Fuchsia Flower Pot",
+  "block.remix.scarlet_flower_pot": "Scarlet Flower Pot",
+  "block.remix.amber_flower_pot": "Amber Flower Pot",
+  "block.remix.lemon_flower_pot": "Lemon Flower Pot",
+  "block.remix.forest_flower_pot": "Forest Flower Pot",
+  "block.remix.teal_flower_pot": "Teal Flower Pot",
+  "block.remix.cerulean_flower_pot": "Cerulean Flower Pot",
+  "block.remix.azure_flower_pot": "Azure Flower Pot",
+  "block.remix.indigo_flower_pot": "Indigo Flower Pot",
+  "block.remix.violet_flower_pot": "Violet Flower Pot",
+  "block.remix.velvet_flower_pot": "Velvet Flower Pot",
+  "block.remix.tan_flower_pot": "Tan Flower Pot",
+  "block.remix.cream_flower_pot": "Cream Flower Pot",
+
   "block.remix.red_flower_pot": "Red Flower Pot",
   "block.remix.orange_flower_pot": "Orange Flower Pot",
   "block.remix.yellow_flower_pot": "Yellow Flower Pot",
@@ -244,6 +258,9 @@
   "block.remix.red_nether_flower_pot": "Red Nether Brick Flower Pot",
   "block.remix.warped_nether_flower_pot": "Warped Nether Brick Flower Pot",
   "block.remix.burnt_nether_flower_pot": "Burnt Nether Flower Pot",
+
+  "block.remix.sandstone_flower_pot": "Sandstone Nether Flower Pot",
+  "block.remix.red_sandstone_flower_pot": "Red Sandstone Brick Flower Pot",
 
   "block.remix.oak_boards": "Oak Boards",
   "block.remix.birch_boards": "Birch Boards",
