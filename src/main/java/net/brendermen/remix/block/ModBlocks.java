@@ -232,6 +232,9 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.AMBER_TERRACOTTA.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)));
 
+    public static final RegistryObject<Block> AMBER_TERRACOTTA_SLAB = registerBlock("amber_terracotta_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+
     public static final RegistryObject<Block> AMBER_TERRACOTTA_BRICKS = registerBlock("amber_terracotta_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_TERRACOTTA)));
 
