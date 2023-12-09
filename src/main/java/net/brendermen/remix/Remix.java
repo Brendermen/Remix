@@ -1,8 +1,8 @@
 package net.brendermen.remix;
 
 import com.mojang.logging.LogUtils;
-import net.brendermen.remix.mod.ModBlocks;
-import net.brendermen.remix.mod.ModItems;
+import net.brendermen.remix.block.ModBlocks;
+import net.brendermen.remix.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -374,6 +374,8 @@ public class Remix {
         }
 
         if (event.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.SPRUCE_CRAFTING_TABLE);
+
             event.accept(ModBlocks.RED_FLOWER_POT);
             event.accept(ModBlocks.ORANGE_FLOWER_POT);
             event.accept(ModBlocks.YELLOW_FLOWER_POT);
@@ -418,9 +420,9 @@ public class Remix {
             event.accept(ModBlocks.GRANITE_FLOWER_POT);
             event.accept(ModBlocks.IRON_FLOWER_POT);
             event.accept(ModBlocks.NETHER_BRICK_FLOWER_POT);
-            event.accept(ModBlocks.RED_NETHER_FLOWER_POT);
-            event.accept(ModBlocks.WARPED_NETHER_FLOWER_POT);
-            event.accept(ModBlocks.BURNT_NETHER_FLOWER_POT);
+            event.accept(ModBlocks.RED_NETHER_BRICK_FLOWER_POT);
+            event.accept(ModBlocks.WARPED_NETHER_BRICK_FLOWER_POT);
+            event.accept(ModBlocks.BURNT_NETHER_BRICK_FLOWER_POT);
         }
 
         if (event.getTab() == CreativeModeTabs.REDSTONE_BLOCKS) {

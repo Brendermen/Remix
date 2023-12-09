@@ -1,4 +1,4 @@
-package net.brendermen.remix.mod;
+package net.brendermen.remix.data;
 
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;

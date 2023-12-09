@@ -1,8 +1,19 @@
 {
   "parent": "block/block",
+  "display": {
+    "head": {
+      "rotation": [ -180, 0, 0 ],
+      "translation": [ 8.5, 4, 0 ]
+    },
+    "thirdperson_righthand": {
+      "translation": [ 0, 2, 0.5],
+      "scale": [ 0.40, 0.40, 0.40 ]
+    }
+  },
+  "ambientocclusion": false,
   "textures": {
-    "particle": "remix:block/warped_nether_flower_pot",
-    "flowerpot": "remix:block/warped_nether_flower_pot",
+    "particle": "remix:block/burnt_nether_brick_flower_pot",
+    "flowerpot": "remix:block/burnt_nether_brick_flower_pot",
     "dirt": "block/dirt"
   },
   "elements": [
@@ -53,13 +64,5 @@
         "up":   { "uv": [ 6, 6, 10, 10 ], "texture": "#dirt" }
       }
     }
-  ],
-  "gui_light": "side",
-  "display": {
-    "firstperson_righthand": {
-      "rotation": [0, 135, 0],
-      "translation": [0, 2.5, 0],
-      "scale": [0.375, 0.375, 0.375]
-    }
-  }
+  ]
 }

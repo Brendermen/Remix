@@ -1,4 +1,4 @@
-package net.brendermen.remix.mod;
+package net.brendermen.remix.block;
 
 import com.google.common.collect.Maps;
 import net.minecraft.core.BlockPos;

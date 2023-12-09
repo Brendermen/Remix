@@ -1,8 +1,19 @@
 {
+  "parent": "block/block",
+  "display": {
+    "head": {
+      "rotation": [ -180, 0, 0 ],
+      "translation": [ 8.5, 4, 0 ]
+    },
+    "thirdperson_righthand": {
+      "translation": [ 0, 2, 0.5],
+      "scale": [ 0.40, 0.40, 0.40 ]
+    }
+  },
   "ambientocclusion": false,
   "textures": {
-    "particle": "remix:block/burnt_nether_flower_pot",
-    "flowerpot": "remix:block/burnt_nether_flower_pot",
+    "particle": "block/flower_pot",
+    "flowerpot": "block/flower_pot",
     "dirt": "block/dirt"
   },
   "elements": [

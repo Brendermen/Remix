@@ -1,6 +1,7 @@
-package net.brendermen.remix.mod;
+package net.brendermen.remix.block;
 
 import net.brendermen.remix.Remix;
+import net.brendermen.remix.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -861,12 +862,12 @@ public class ModBlocks {
             () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "gold"));
     public static final RegistryObject<Block> NETHER_BRICK_FLOWER_POT = registerBlock("nether_brick_flower_pot",
             () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "nether_brick"));
-    public static final RegistryObject<Block> RED_NETHER_FLOWER_POT = registerBlock("red_nether_flower_pot",
-            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "red_nether"));
-    public static final RegistryObject<Block> BURNT_NETHER_FLOWER_POT = registerBlock("burnt_nether_flower_pot",
-            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "burnt_nether"));
-    public static final RegistryObject<Block> WARPED_NETHER_FLOWER_POT = registerBlock("warped_nether_flower_pot",
-            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "warped_nether"));
+    public static final RegistryObject<Block> RED_NETHER_BRICK_FLOWER_POT = registerBlock("red_nether_brick_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "red_nether_brick"));
+    public static final RegistryObject<Block> BURNT_NETHER_BRICK_FLOWER_POT = registerBlock("burnt_nether_brick_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "burnt_nether_brick"));
+    public static final RegistryObject<Block> WARPED_NETHER_BRICK_FLOWER_POT = registerBlock("warped_nether_brick_flower_pot",
+            () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "warped_nether_brick"));
     public static final RegistryObject<Block> GRANITE_FLOWER_POT = registerBlock("granite_flower_pot",
             () -> new ModFlowerPotBlock(null, null, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT), "granite"));
     public static final RegistryObject<Block> DEEPSLATE_FLOWER_POT = registerBlock("deepslate_flower_pot",

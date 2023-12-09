@@ -1,5 +1,6 @@
-package net.brendermen.remix.mod;
+package net.brendermen.remix.block;
 
+import net.brendermen.remix.data.ModCraftingContainer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.MenuProvider;
@@ -19,6 +20,6 @@ public class ModCraftingTableBlock extends CraftingTableBlock {
     }
 
     public MenuProvider getMenuProvider(BlockState state, Level worldIn, BlockPos pos) {
-        return new SimpleMenuProvider((id, inventory, entity) -> new net.brendermen.remix.mod.ModCraftingContainer(id, inventory, ContainerLevelAccess.create(worldIn, pos), this), GUI_TITLE);
+        return new SimpleMenuProvider((id, inventory, entity) -> new ModCraftingContainer(id, inventory, ContainerLevelAccess.create(worldIn, pos), this), GUI_TITLE);
     }
 }

@@ -255,12 +255,12 @@
   "block.remix.granite_flower_pot": "Granite Flower Pot",
   "block.remix.iron_flower_pot": "Iron Flower Pot",
   "block.remix.nether_brick_flower_pot": "Nether Brick Flower Pot",
-  "block.remix.red_nether_flower_pot": "Red Nether Brick Flower Pot",
-  "block.remix.warped_nether_flower_pot": "Warped Nether Brick Flower Pot",
-  "block.remix.burnt_nether_flower_pot": "Burnt Nether Flower Pot",
+  "block.remix.red_nether_brick_flower_pot": "Red Nether Brick Flower Pot",
+  "block.remix.warped_nether_brick_flower_pot": "Warped Nether Brick Flower Pot",
+  "block.remix.burnt_nether_brick_flower_pot": "Burnt Nether Brick Flower Pot",
 
-  "block.remix.sandstone_flower_pot": "Sandstone Nether Flower Pot",
-  "block.remix.red_sandstone_flower_pot": "Red Sandstone Brick Flower Pot",
+  "block.remix.sandstone_flower_pot": "Sandstone Flower Pot",
+  "block.remix.red_sandstone_flower_pot": "Red Sandstone Flower Pot",
 
   "block.remix.oak_boards": "Oak Boards",
   "block.remix.birch_boards": "Birch Boards",
