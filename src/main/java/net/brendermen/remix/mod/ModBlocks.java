@@ -1,8 +1,6 @@
-package net.brendermen.remix.block;
+package net.brendermen.remix.mod;
 
 import net.brendermen.remix.Remix;
-import net.brendermen.remix.block.custom.ModFlowerPotBlock;
-import net.brendermen.remix.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -14,34 +12,34 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 
-
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Remix.MOD_ID);
 
+    public static final RegistryObject<Block> SPRUCE_CRAFTING_TABLE = registerBlock("spruce_crafting_table",
+            () -> new ModCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)));
+
+
+
+
+
+
+
     public static final RegistryObject<Block> OAK_BOARDS = registerBlock("oak_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-
     public static final RegistryObject<Block> BIRCH_BOARDS = registerBlock("birch_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
-
     public static final RegistryObject<Block> SPRUCE_BOARDS = registerBlock("spruce_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
-
     public static final RegistryObject<Block> DARK_OAK_BOARDS = registerBlock("dark_oak_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
-
     public static final RegistryObject<Block> ACACIA_BOARDS = registerBlock("acacia_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
-
     public static final RegistryObject<Block> JUNGLE_BOARDS = registerBlock("jungle_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
-
     public static final RegistryObject<Block> MANGROVE_BOARDS = registerBlock("mangrove_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
-
     public static final RegistryObject<Block> CRIMSON_BOARDS = registerBlock("crimson_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
-
     public static final RegistryObject<Block> WARPED_BOARDS = registerBlock("warped_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
 

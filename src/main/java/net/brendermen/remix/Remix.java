@@ -1,8 +1,8 @@
 package net.brendermen.remix;
 
 import com.mojang.logging.LogUtils;
-import net.brendermen.remix.block.ModBlocks;
-import net.brendermen.remix.item.ModItems;
+import net.brendermen.remix.mod.ModBlocks;
+import net.brendermen.remix.mod.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,15 +23,13 @@ public class Remix {
 
     public Remix() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
         ModBlocks.register(modEventBus);
-
         ModItems.register(modEventBus);
-
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        LOGGER.info("Remix Loaded");
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

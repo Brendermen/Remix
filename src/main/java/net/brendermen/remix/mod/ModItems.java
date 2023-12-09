@@ -1,4 +1,4 @@
-package net.brendermen.remix.item;
+package net.brendermen.remix.mod;
 
 import net.brendermen.remix.Remix;
 import net.minecraft.world.item.Item;
