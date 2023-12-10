@@ -19,6 +19,108 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_CRAFTING_TABLE = registerBlock("spruce_crafting_table",
             () -> new ModCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)));
 
+    public static final RegistryObject<Block> POLISHED_WHITE_TERRACOTTA = registerBlock("polished_white_terracotta",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)));
+
+    public static final RegistryObject<Block> POLISHED_WHITE_CONCRETE = registerBlock("polished_white_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_LIGHT_GRAY_CONCRETE = registerBlock("polished_light_gray_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_GRAY_CONCRETE = registerBlock("polished_gray_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_BLACK_CONCRETE = registerBlock("polished_black_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_CREAM_CONCRETE = registerBlock("polished_cream_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_TAN_CONCRETE = registerBlock("polished_tan_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_BROWN_CONCRETE = registerBlock("polished_brown_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_PINK_TERRACOTTA = registerBlock("polished_pink_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_VELVET_CONCRETE = registerBlock("polished_velvet_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_MAGENTA_CONCRETE = registerBlock("polished_magenta_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_VIOLET_CONCRETE = registerBlock("polished_violet_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_PURPLE_TERRACOTTA = registerBlock("polished_purple_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_INDIGO_GRAY_CONCRETE = registerBlock("polished_indigo_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_BLUE_CONCRETE = registerBlock("polished_blue_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_AZURE_CONCRETE = registerBlock("polished_azure_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_LIGHT_BLUE_CONCRETE = registerBlock("polished_light_blue_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_CERULEAN_CONCRETE = registerBlock("polished_cerulean_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_CYAN_CONCRETE = registerBlock("polished_cyan_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_TEAL_CONCRETE = registerBlock("polished_teal_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_GREEN_TERRACOTTA = registerBlock("polished_green_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_FOREST_CONCRETE = registerBlock("polished_forest_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_LIME_CONCRETE = registerBlock("polished_lime_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_LEMON_CONCRETE = registerBlock("polished_lemon_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_YELLOW_TERRACOTTA = registerBlock("polished_yellow_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_AMBER_CONCRETE = registerBlock("polished_amber_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_ORANGE_CONCRETE = registerBlock("polished_orange_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_SCARLET_CONCRETE = registerBlock("polished_scarlet_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_RED_CONCRETE = registerBlock("polished_red_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+    public static final RegistryObject<Block> POLISHED_FUCHSIA_CONCRETE = registerBlock("polished_fuchsia_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -773,9 +875,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> BROWN_TERRACOTTA_BRICK_STAIRS = registerBlock("brown_terracotta_brick_stairs",
             () -> new StairBlock(() -> ModBlocks.BROWN_TERRACOTTA_BRICKS.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)));
-
-    public static final RegistryObject<Block> POLISHED_WHITE_CONCRETE = registerBlock("polished_white_concrete",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
 
     public static final RegistryObject<Block> WHITE_CONCRETE_BRICKS = registerBlock("white_concrete_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
