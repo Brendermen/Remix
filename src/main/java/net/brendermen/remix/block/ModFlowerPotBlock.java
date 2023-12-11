@@ -30,8 +30,6 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.function.Supplier;
 
-
-
 public class ModFlowerPotBlock extends Block {
     public static final Map<String, ModFlowerPotBlock> POT_FROM_COLOR = Maps.newHashMap();
     protected static final VoxelShape SHAPE = Block.box(5.0, 0.0, 5.0, 11.0, 6.0, 11.0);
