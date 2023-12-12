@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "remix:block/polished_orange_concrete"
-  }
+  "parent": "remix:block/polished_orange_concrete"
 }

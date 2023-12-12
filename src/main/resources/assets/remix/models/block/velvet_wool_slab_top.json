@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "remix:block/velvet_wool",
+    "side": "remix:block/velvet_wool",
+    "top": "remix:block/velvet_wool"
+  }
+}
