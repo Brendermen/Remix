@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remix:block/velvet_wool_slab"
+    },
+    "type=double": {
+      "model": "remix:block/velvet_wool"
+    },
+    "type=top": {
+      "model": "remix:block/velvet_wool_slab_top"
+    }
+  }
+}

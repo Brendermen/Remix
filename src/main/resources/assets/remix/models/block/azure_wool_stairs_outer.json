@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "remix:block/azure_wool",
+    "side": "remix:block/azure_wool",
+    "top": "remix:block/azure_wool"
+  }
+}

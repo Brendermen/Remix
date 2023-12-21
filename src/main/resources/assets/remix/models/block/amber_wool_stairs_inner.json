@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "remix:block/amber_wool",
+    "side": "remix:block/amber_wool",
+    "top": "remix:block/amber_wool"
+  }
+}

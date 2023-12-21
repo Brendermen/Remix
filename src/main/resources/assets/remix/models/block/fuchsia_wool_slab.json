@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "remix:block/fuchsia_wool",
+    "side": "remix:block/fuchsia_wool",
+    "top": "remix:block/fuchsia_wool"
+  }
+}
