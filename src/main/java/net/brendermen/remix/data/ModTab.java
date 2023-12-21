@@ -313,7 +313,7 @@ public class ModTab {
         event.accept(ModBlocks.TAN_STAINED_GLASS);
         event.accept(ModBlocks.CREAM_STAINED_GLASS);
 
-        event.accept(ModBlocks.FUCHSIA_FLOWER_POT);
+        /*event.accept(ModBlocks.FUCHSIA_FLOWER_POT);
         event.accept(ModBlocks.SCARLET_FLOWER_POT);
         event.accept(ModBlocks.AMBER_FLOWER_POT);
         event.accept(ModBlocks.LEMON_FLOWER_POT);
@@ -359,7 +359,7 @@ public class ModTab {
         event.accept(ModBlocks.LIGHT_GRAY_GLAZED_FLOWER_POT);
         event.accept(ModBlocks.GRAY_GLAZED_FLOWER_POT);
         event.accept(ModBlocks.BLACK_GLAZED_FLOWER_POT);
-        event.accept(ModBlocks.BROWN_GLAZED_FLOWER_POT);
+        event.accept(ModBlocks.BROWN_GLAZED_FLOWER_POT);*/
     }
 
     private static void Natrual_Blocks(CreativeModeTabEvent.BuildContents event) {

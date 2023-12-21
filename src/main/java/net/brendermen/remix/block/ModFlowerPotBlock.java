@@ -110,16 +110,16 @@ public class ModFlowerPotBlock extends Block {
         }
     }
 
-    public ItemStack getCloneItemStack(BlockGetter p_53531_, BlockPos p_53532_, BlockState p_53533_) {
-        return this.isEmpty() ? super.getCloneItemStack(p_53531_, p_53532_, p_53533_) : new ItemStack(this.flower);
+    public ItemStack getCloneItemStack(BlockGetter pLevel, BlockPos pPos, BlockState pState) {
+        return this.isEmpty() ? super.getCloneItemStack(pLevel, pPos, pState) : new ItemStack(this.flower);
     }
 
     private boolean isEmpty() {
         return this.flower == Blocks.AIR;
     }
 
-    public BlockState updateShape(BlockState p_53547_, Direction p_53548_, BlockState p_53549_, LevelAccessor p_53550_, BlockPos p_53551_, BlockPos p_53552_) {
-        return p_53548_ == Direction.DOWN && !p_53547_.canSurvive(p_53550_, p_53551_) ? Blocks.AIR.defaultBlockState() : super.updateShape(p_53547_, p_53548_, p_53549_, p_53550_, p_53551_, p_53552_);
+    public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel, BlockPos pCurrentPos, BlockPos pFacingPos) {
+        return pFacing == Direction.DOWN && !pState.canSurvive(pLevel, pCurrentPos) ? Blocks.AIR.defaultBlockState() : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
     }
 
     public Block getContent() {
@@ -130,7 +130,7 @@ public class ModFlowerPotBlock extends Block {
         return this.potColor;
     }
 
-    public boolean isPathfindable(BlockState p_53535_, BlockGetter p_53536_, BlockPos p_53537_, PathComputationType p_53538_) {
+    public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
         return false;
     }
 
