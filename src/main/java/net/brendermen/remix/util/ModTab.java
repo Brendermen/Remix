@@ -1,4 +1,4 @@
-package net.brendermen.remix.data;
+package net.brendermen.remix.util;
 
 import net.brendermen.remix.block.ModBlocks;
 import net.brendermen.remix.item.ModItems;
@@ -401,7 +401,7 @@ public class ModTab {
         event.accept(ModBlocks.TAN_STAINED_GLASS);
         event.accept(ModBlocks.CREAM_STAINED_GLASS);
 
-        event.accept(ModBlocks.FUCHSIA_FLOWER_POT);
+        /*event.accept(ModBlocks.FUCHSIA_FLOWER_POT);
         event.accept(ModBlocks.SCARLET_FLOWER_POT);
         event.accept(ModBlocks.AMBER_FLOWER_POT);
         event.accept(ModBlocks.LEMON_FLOWER_POT);
@@ -447,7 +447,7 @@ public class ModTab {
         event.accept(ModBlocks.LIGHT_GRAY_GLAZED_FLOWER_POT);
         event.accept(ModBlocks.GRAY_GLAZED_FLOWER_POT);
         event.accept(ModBlocks.BLACK_GLAZED_FLOWER_POT);
-        event.accept(ModBlocks.BROWN_GLAZED_FLOWER_POT);
+        event.accept(ModBlocks.BROWN_GLAZED_FLOWER_POT);*/
     }
 
     private static void Natrual_Blocks(CreativeModeTabEvent.BuildContents event) {
@@ -457,7 +457,7 @@ public class ModTab {
     private static void Functional_Block(CreativeModeTabEvent.BuildContents event) {
         event.accept(ModBlocks.SPRUCE_CRAFTING_TABLE);
 
-        event.accept(ModBlocks.RED_FLOWER_POT);
+        /*event.accept(ModBlocks.RED_FLOWER_POT);
         event.accept(ModBlocks.ORANGE_FLOWER_POT);
         event.accept(ModBlocks.YELLOW_FLOWER_POT);
         event.accept(ModBlocks.LIME_FLOWER_POT);
@@ -503,7 +503,7 @@ public class ModTab {
         event.accept(ModBlocks.NETHER_BRICK_FLOWER_POT);
         event.accept(ModBlocks.RED_NETHER_BRICK_FLOWER_POT);
         event.accept(ModBlocks.WARPED_NETHER_BRICK_FLOWER_POT);
-        event.accept(ModBlocks.BURNT_NETHER_BRICK_FLOWER_POT);
+        event.accept(ModBlocks.BURNT_NETHER_BRICK_FLOWER_POT);*/
     }
 
     private static void REDSTONE_BLOCKS(CreativeModeTabEvent.BuildContents event) {

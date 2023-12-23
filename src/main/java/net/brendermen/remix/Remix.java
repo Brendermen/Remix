@@ -2,7 +2,7 @@ package net.brendermen.remix;
 
 import com.mojang.logging.LogUtils;
 import net.brendermen.remix.block.ModBlocks;
-import net.brendermen.remix.data.ModTab;
+import net.brendermen.remix.util.ModTab;
 import net.brendermen.remix.item.ModItems;
 import net.brendermen.remix.player.RightClickHarvest;
 import net.minecraftforge.api.distmarker.Dist;
