@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remix:block/granite_tile_slab"
+    },
+    "type=double": {
+      "model": "remix:block/granite_tiles"
+    },
+    "type=top": {
+      "model": "remix:block/granite_tile_slab_top"
+    }
+  }
+}

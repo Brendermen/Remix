@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remix:block/violet_terracotta_slab"
+    },
+    "type=double": {
+      "model": "remix:block/violet_terracotta"
+    },
+    "type=top": {
+      "model": "remix:block/violet_terracotta_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remix:block/mossy_stone_tile_slab"
+    },
+    "type=double": {
+      "model": "remix:block/mossy_stone_tiles"
+    },
+    "type=top": {
+      "model": "remix:block/mossy_stone_tile_slab_top"
+    }
+  }
+}

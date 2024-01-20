@@ -14,7 +14,7 @@ public class ModTab {
         } else if (event.getTab() == CreativeModeTabs.COLORED_BLOCKS) {
             Colored_Blocks(event);
         } else if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
-            Natrual_Blocks(event);
+            Natural_Blocks(event);
         } else if (event.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             Functional_Block(event);
         } else if (event.getTab() == CreativeModeTabs.REDSTONE_BLOCKS) {
@@ -77,33 +77,63 @@ public class ModTab {
         event.accept(ModBlocks.RED_SANDSTONE_PILLAR);
 
         event.accept(ModBlocks.POLISHED_STONE);
+        event.accept(ModBlocks.POLISHED_STONE_STAIRS);
+        event.accept(ModBlocks.POLISHED_STONE_SLAB);
         event.accept(ModBlocks.STONE_TILES);
+        event.accept(ModBlocks.STONE_TILE_STAIRS);
+        event.accept(ModBlocks.STONE_TILE_SLAB);
         event.accept(ModBlocks.STONE_PILLAR);
 
         event.accept(ModBlocks.MOSSY_STONE);
+        event.accept(ModBlocks.MOSSY_STONE_STAIRS);
+        event.accept(ModBlocks.MOSSY_STONE_SLAB);
         event.accept(ModBlocks.MOSSY_POLISHED_STONE);
+        event.accept(ModBlocks.MOSSY_POLISHED_STONE_STAIRS);
+        event.accept(ModBlocks.MOSSY_POLISHED_STONE_SLAB);
         event.accept(ModBlocks.MOSSY_STONE_TILES);
+        event.accept(ModBlocks.MOSSY_STONE_TILE_STAIRS);
+        event.accept(ModBlocks.MOSSY_STONE_TILE_SLAB);
         event.accept(ModBlocks.MOSSY_CHISELED_STONE);
         event.accept(ModBlocks.MOSSY_STONE_PILLAR);
 
         event.accept(ModBlocks.CRACKED_STONE);
+        event.accept(ModBlocks.CRACKED_STONE_STAIRS);
+        event.accept(ModBlocks.CRACKED_STONE_SLAB);
+        event.accept(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+        event.accept(ModBlocks.CRACKED_STONE_BRICK_SLAB);
         event.accept(ModBlocks.CRACKED_POLISHED_STONE);
+        event.accept(ModBlocks.CRACKED_POLISHED_STONE_STAIRS);
+        event.accept(ModBlocks.CRACKED_POLISHED_STONE_SLAB);
         event.accept(ModBlocks.CRACKED_STONE_TILES);
+        event.accept(ModBlocks.CRACKED_STONE_TILE_STAIRS);
+        event.accept(ModBlocks.CRACKED_STONE_TILE_SLAB);
         event.accept(ModBlocks.CRACKED_CHISELED_STONE);
         event.accept(ModBlocks.CRACKED_STONE_PILLAR);
 
         event.accept(ModBlocks.GRANITE_BRICKS);
+        event.accept(ModBlocks.GRANITE_BRICK_STAIRS);
+        event.accept(ModBlocks.GRANITE_BRICK_SLAB);
         event.accept(ModBlocks.GRANITE_TILES);
+        event.accept(ModBlocks.GRANITE_TILE_STAIRS);
+        event.accept(ModBlocks.GRANITE_TILE_SLAB);
         event.accept(ModBlocks.CHISELED_GRANITE);
         event.accept(ModBlocks.GRANITE_PILLAR);
 
         event.accept(ModBlocks.ANDESITE_BRICKS);
+        event.accept(ModBlocks.ANDESITE_BRICK_STAIRS);
+        event.accept(ModBlocks.ANDESITE_BRICK_SLAB);
         event.accept(ModBlocks.ANDESITE_TILES);
+        event.accept(ModBlocks.ANDESITE_TILE_STAIRS);
+        event.accept(ModBlocks.ANDESITE_TILE_SLAB);
         event.accept(ModBlocks.CHISELED_ANDESITE);
         event.accept(ModBlocks.ANDESITE_PILLAR);
 
         event.accept(ModBlocks.DIORITE_BRICKS);
+        event.accept(ModBlocks.DIORITE_BRICK_STAIRS);
+        event.accept(ModBlocks.DIORITE_BRICK_SLAB);
         event.accept(ModBlocks.DIORITE_TILES);
+        event.accept(ModBlocks.DIORITE_TILE_STAIRS);
+        event.accept(ModBlocks.DIORITE_TILE_SLAB);
         event.accept(ModBlocks.CHISELED_DIORITE);
         event.accept(ModBlocks.DIORITE_PILLAR);
 
@@ -264,6 +294,37 @@ public class ModTab {
         event.accept(ModBlocks.TAN_TERRACOTTA_STAIRS);
         event.accept(ModBlocks.CREAM_TERRACOTTA_STAIRS);
 
+        event.accept(ModBlocks.TERRACOTTA_SLAB);
+        event.accept(ModBlocks.FUCHSIA_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.RED_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.SCARLET_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.ORANGE_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.AMBER_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.YELLOW_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.LEMON_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.LIME_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.FOREST_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.GREEN_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.TEAL_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.CYAN_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.CERULEAN_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.AZURE_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.BLUE_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.INDIGO_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.PURPLE_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.VIOLET_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.VELVET_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.PINK_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.WHITE_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.GRAY_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.BLACK_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.BROWN_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.TAN_TERRACOTTA_SLAB);
+        event.accept(ModBlocks.CREAM_TERRACOTTA_SLAB);
+
         event.accept(ModBlocks.TERRACOTTA_BRICKS);
         event.accept(ModBlocks.FUCHSIA_TERRACOTTA_BRICKS);
         event.accept(ModBlocks.RED_TERRACOTTA_BRICKS);
@@ -325,6 +386,37 @@ public class ModTab {
         event.accept(ModBlocks.BROWN_TERRACOTTA_BRICK_STAIRS);
         event.accept(ModBlocks.TAN_TERRACOTTA_BRICK_STAIRS);
         event.accept(ModBlocks.CREAM_TERRACOTTA_BRICK_STAIRS);
+
+        event.accept(ModBlocks.TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.FUCHSIA_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.RED_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.SCARLET_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.ORANGE_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.AMBER_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.YELLOW_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.LEMON_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.LIME_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.FOREST_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.GREEN_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.TEAL_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.CYAN_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.CERULEAN_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.AZURE_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.BLUE_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.INDIGO_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.PURPLE_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.VIOLET_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.MAGENTA_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.VELVET_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.PINK_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.WHITE_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.GRAY_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.BLACK_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.BROWN_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.TAN_TERRACOTTA_BRICK_SLAB);
+        event.accept(ModBlocks.CREAM_TERRACOTTA_BRICK_SLAB);
 
         event.accept(ModBlocks.FUCHSIA_CONCRETE);
         event.accept(ModBlocks.SCARLET_CONCRETE);
@@ -450,7 +542,7 @@ public class ModTab {
         event.accept(ModBlocks.BROWN_GLAZED_FLOWER_POT);*/
     }
 
-    private static void Natrual_Blocks(CreativeModeTabEvent.BuildContents event) {
+    private static void Natural_Blocks(CreativeModeTabEvent.BuildContents event) {
 
     }
 

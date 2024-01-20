@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remix:block/diorite_tile_slab"
+    },
+    "type=double": {
+      "model": "remix:block/diorite_tiles"
+    },
+    "type=top": {
+      "model": "remix:block/diorite_tile_slab_top"
+    }
+  }
+}

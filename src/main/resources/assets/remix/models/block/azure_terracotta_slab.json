@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "remix:block/azure_terracotta",
+    "side": "remix:block/azure_terracotta",
+    "top": "remix:block/azure_terracotta"
+  }
+}

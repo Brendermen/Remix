@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "remix:block/granite_brick_slab"
+    },
+    "type=double": {
+      "model": "remix:block/granite_bricks"
+    },
+    "type=top": {
+      "model": "remix:block/granite_brick_slab_top"
+    }
+  }
+}
