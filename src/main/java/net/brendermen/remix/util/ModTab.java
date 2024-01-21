@@ -2,11 +2,16 @@ package net.brendermen.remix.util;
 
 import net.brendermen.remix.block.ModBlocks;
 import net.brendermen.remix.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class ModTab {
+
     @SubscribeEvent
     public static void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -161,93 +166,226 @@ public class ModTab {
     }
 
     private static void Colored_Blocks(CreativeModeTabEvent.BuildContents event) {
-        event.accept(ModBlocks.FUCHSIA_WOOL);
-        event.accept(ModBlocks.SCARLET_WOOL);
-        event.accept(ModBlocks.AMBER_WOOL);
-        event.accept(ModBlocks.LEMON_WOOL);
-        event.accept(ModBlocks.FOREST_WOOL);
-        event.accept(ModBlocks.TEAL_WOOL);
-        event.accept(ModBlocks.CERULEAN_WOOL);
-        event.accept(ModBlocks.AZURE_WOOL);
-        event.accept(ModBlocks.INDIGO_WOOL);
-        event.accept(ModBlocks.VIOLET_WOOL);
-        event.accept(ModBlocks.VELVET_WOOL);
-        event.accept(ModBlocks.TAN_WOOL);
-        event.accept(ModBlocks.CREAM_WOOL);
+        event.getEntries().putBefore(Items.RED_WOOL.getDefaultInstance(),
+                ModBlocks.FUCHSIA_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.ORANGE_WOOL.getDefaultInstance(),
+                ModBlocks.SCARLET_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.YELLOW_WOOL.getDefaultInstance(),
+                ModBlocks.AMBER_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.LIME_WOOL.getDefaultInstance(),
+                ModBlocks.LEMON_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.GREEN_WOOL.getDefaultInstance(),
+                ModBlocks.FOREST_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.CYAN_WOOL.getDefaultInstance(),
+                ModBlocks.TEAL_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.LIGHT_BLUE_WOOL.getDefaultInstance(),
+                ModBlocks.CERULEAN_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.BLUE_WOOL.getDefaultInstance(),
+                ModBlocks.AZURE_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.PURPLE_WOOL.getDefaultInstance(),
+                ModBlocks.INDIGO_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.MAGENTA_WOOL.getDefaultInstance(),
+                ModBlocks.VIOLET_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.PINK_WOOL.getDefaultInstance(),
+                ModBlocks.VELVET_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BROWN_WOOL.getDefaultInstance(),
+                ModBlocks.TAN_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TAN_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.CREAM_WOOL.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-        event.accept(ModBlocks.FUCHSIA_WOOL_STAIRS);
-        event.accept(ModBlocks.RED_WOOL_STAIRS);
-        event.accept(ModBlocks.SCARLET_WOOL_STAIRS);
-        event.accept(ModBlocks.ORANGE_WOOL_STAIRS);
-        event.accept(ModBlocks.AMBER_WOOL_STAIRS);
-        event.accept(ModBlocks.YELLOW_WOOL_STAIRS);
-        event.accept(ModBlocks.LEMON_WOOL_STAIRS);
-        event.accept(ModBlocks.LIME_WOOL_STAIRS);
-        event.accept(ModBlocks.FOREST_WOOL_STAIRS);
-        event.accept(ModBlocks.GREEN_WOOL_STAIRS);
-        event.accept(ModBlocks.TEAL_WOOL_STAIRS);
-        event.accept(ModBlocks.CYAN_WOOL_STAIRS);
-        event.accept(ModBlocks.CERULEAN_WOOL_STAIRS);
-        event.accept(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
-        event.accept(ModBlocks.AZURE_WOOL_STAIRS);
-        event.accept(ModBlocks.BLUE_WOOL_STAIRS);
-        event.accept(ModBlocks.INDIGO_WOOL_STAIRS);
-        event.accept(ModBlocks.PURPLE_WOOL_STAIRS);
-        event.accept(ModBlocks.VIOLET_WOOL_STAIRS);
-        event.accept(ModBlocks.MAGENTA_WOOL_STAIRS);
-        event.accept(ModBlocks.VELVET_WOOL_STAIRS);
-        event.accept(ModBlocks.PINK_WOOL_STAIRS);
-        event.accept(ModBlocks.WHITE_WOOL_STAIRS);
-        event.accept(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
-        event.accept(ModBlocks.GRAY_WOOL_STAIRS);
-        event.accept(ModBlocks.BLACK_WOOL_STAIRS);
-        event.accept(ModBlocks.BROWN_WOOL_STAIRS);
-        event.accept(ModBlocks.TAN_WOOL_STAIRS);
-        event.accept(ModBlocks.CREAM_WOOL_STAIRS);
+        event.getEntries().putAfter(ModBlocks.FUCHSIA_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.FUCHSIA_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.RED_WOOL.getDefaultInstance(),
+                ModBlocks.RED_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.SCARLET_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.SCARLET_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.ORANGE_WOOL.getDefaultInstance(),
+                ModBlocks.ORANGE_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AMBER_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.AMBER_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.YELLOW_WOOL.getDefaultInstance(),
+                ModBlocks.YELLOW_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LEMON_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.LEMON_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIME_WOOL.getDefaultInstance(),
+                ModBlocks.LIME_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.FOREST_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.FOREST_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.GREEN_WOOL.getDefaultInstance(),
+                ModBlocks.GREEN_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TEAL_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.TEAL_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.CYAN_WOOL.getDefaultInstance(),
+                ModBlocks.CYAN_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CERULEAN_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.CERULEAN_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIGHT_BLUE_WOOL.getDefaultInstance(),
+                ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AZURE_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.AZURE_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BLUE_WOOL.getDefaultInstance(),
+                ModBlocks.BLUE_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.INDIGO_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.INDIGO_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.PURPLE_WOOL.getDefaultInstance(),
+                ModBlocks.PURPLE_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VIOLET_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.VIOLET_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.MAGENTA_WOOL.getDefaultInstance(),
+                ModBlocks.MAGENTA_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VELVET_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.VELVET_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.PINK_WOOL.getDefaultInstance(),
+                ModBlocks.PINK_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.WHITE_WOOL.getDefaultInstance(),
+                ModBlocks.WHITE_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIGHT_GRAY_WOOL.getDefaultInstance(),
+                ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.GRAY_WOOL.getDefaultInstance(),
+                ModBlocks.GRAY_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BLACK_WOOL.getDefaultInstance(),
+                ModBlocks.BLACK_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BROWN_WOOL.getDefaultInstance(),
+                ModBlocks.BROWN_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TAN_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.TAN_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CREAM_WOOL.get().asItem().getDefaultInstance(),
+                ModBlocks.CREAM_WOOL_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-        event.accept(ModBlocks.FUCHSIA_WOOL_SLAB);
-        event.accept(ModBlocks.RED_WOOL_SLAB);
-        event.accept(ModBlocks.SCARLET_WOOL_SLAB);
-        event.accept(ModBlocks.ORANGE_WOOL_SLAB);
-        event.accept(ModBlocks.AMBER_WOOL_SLAB);
-        event.accept(ModBlocks.YELLOW_WOOL_SLAB);
-        event.accept(ModBlocks.LEMON_WOOL_SLAB);
-        event.accept(ModBlocks.LIME_WOOL_SLAB);
-        event.accept(ModBlocks.FOREST_WOOL_SLAB);
-        event.accept(ModBlocks.GREEN_WOOL_SLAB);
-        event.accept(ModBlocks.TEAL_WOOL_SLAB);
-        event.accept(ModBlocks.CYAN_WOOL_SLAB);
-        event.accept(ModBlocks.CERULEAN_WOOL_SLAB);
-        event.accept(ModBlocks.LIGHT_BLUE_WOOL_SLAB);
-        event.accept(ModBlocks.AZURE_WOOL_SLAB);
-        event.accept(ModBlocks.BLUE_WOOL_SLAB);
-        event.accept(ModBlocks.INDIGO_WOOL_SLAB);
-        event.accept(ModBlocks.PURPLE_WOOL_SLAB);
-        event.accept(ModBlocks.VIOLET_WOOL_SLAB);
-        event.accept(ModBlocks.MAGENTA_WOOL_SLAB);
-        event.accept(ModBlocks.VELVET_WOOL_SLAB);
-        event.accept(ModBlocks.PINK_WOOL_SLAB);
-        event.accept(ModBlocks.WHITE_WOOL_SLAB);
-        event.accept(ModBlocks.LIGHT_GRAY_WOOL_SLAB);
-        event.accept(ModBlocks.GRAY_WOOL_SLAB);
-        event.accept(ModBlocks.BLACK_WOOL_SLAB);
-        event.accept(ModBlocks.BROWN_WOOL_SLAB);
-        event.accept(ModBlocks.TAN_WOOL_SLAB);
-        event.accept(ModBlocks.CREAM_WOOL_SLAB);
+        event.getEntries().putAfter(ModBlocks.FUCHSIA_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.FUCHSIA_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.RED_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.RED_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.SCARLET_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.SCARLET_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.ORANGE_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.ORANGE_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AMBER_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.AMBER_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.YELLOW_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.YELLOW_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LEMON_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.LEMON_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LIME_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.LIME_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.FOREST_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.FOREST_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.GREEN_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.GREEN_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TEAL_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.TEAL_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CYAN_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.CYAN_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CERULEAN_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.CERULEAN_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.LIGHT_BLUE_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AZURE_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.AZURE_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.BLUE_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.BLUE_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.INDIGO_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.INDIGO_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.PURPLE_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.PURPLE_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VIOLET_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.VIOLET_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.MAGENTA_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.MAGENTA_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VELVET_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.VELVET_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.PINK_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.PINK_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.WHITE_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.WHITE_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.LIGHT_GRAY_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.GRAY_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.GRAY_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.BLACK_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.BLACK_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.BROWN_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.BROWN_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TAN_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.TAN_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CREAM_WOOL_STAIRS.get().asItem().getDefaultInstance(),
+                ModBlocks.CREAM_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-        event.accept(ModBlocks.FUCHSIA_CARPET);
-        event.accept(ModBlocks.SCARLET_CARPET);
-        event.accept(ModBlocks.AMBER_CARPET);
-        event.accept(ModBlocks.LEMON_CARPET);
-        event.accept(ModBlocks.FOREST_CARPET);
-        event.accept(ModBlocks.TEAL_CARPET);
-        event.accept(ModBlocks.CERULEAN_CARPET);
-        event.accept(ModBlocks.AZURE_CARPET);
-        event.accept(ModBlocks.INDIGO_CARPET);
-        event.accept(ModBlocks.VIOLET_CARPET);
-        event.accept(ModBlocks.VELVET_CARPET);
-        event.accept(ModBlocks.TAN_CARPET);
-        event.accept(ModBlocks.CREAM_CARPET);
+        event.getEntries().remove(Items.RED_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.ORANGE_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.YELLOW_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.LIME_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.GREEN_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.CYAN_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.LIGHT_BLUE_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.BLUE_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.PURPLE_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.MAGENTA_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.PINK_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.WHITE_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.LIGHT_GRAY_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.GRAY_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.BLACK_CARPET.getDefaultInstance());
+        event.getEntries().remove(Items.BROWN_CARPET.getDefaultInstance());
+
+        event.getEntries().putAfter(ModBlocks.FUCHSIA_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.FUCHSIA_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.RED_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.RED_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.SCARLET_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.SCARLET_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.ORANGE_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.ORANGE_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AMBER_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.AMBER_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.YELLOW_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.YELLOW_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LEMON_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.LEMON_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LIME_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.LIME_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.FOREST_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.FOREST_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.GREEN_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.GREEN_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TEAL_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.TEAL_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CYAN_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.CYAN_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CERULEAN_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.CERULEAN_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LIGHT_BLUE_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.LIGHT_BLUE_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AZURE_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.AZURE_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.BLUE_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.BLUE_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.INDIGO_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.INDIGO_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.PURPLE_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.PURPLE_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VIOLET_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.VIOLET_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.MAGENTA_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.MAGENTA_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VELVET_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.VELVET_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.PINK_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.PINK_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.WHITE_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.WHITE_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LIGHT_GRAY_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.LIGHT_GRAY_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.GRAY_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.GRAY_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.BLACK_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.BLACK_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.BROWN_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                Items.BROWN_CARPET.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TAN_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.TAN_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CREAM_WOOL_SLAB.get().asItem().getDefaultInstance(),
+                ModBlocks.CREAM_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
         event.accept(ModBlocks.FUCHSIA_TERRACOTTA);
         event.accept(ModBlocks.SCARLET_TERRACOTTA);
