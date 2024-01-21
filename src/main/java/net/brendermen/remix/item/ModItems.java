@@ -16,7 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> AMBER_DYE = ITEMS.register("amber_dye",
         () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> CERULEAN_DYE = ITEMS.register("aqua_dye",
+    public static final RegistryObject<Item> CERULEAN_DYE = ITEMS.register("cerulean_dye",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CREAM_DYE = ITEMS.register("cream_dye",
