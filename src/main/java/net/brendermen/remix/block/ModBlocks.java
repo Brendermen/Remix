@@ -17,6 +17,11 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> GRASS_SLAB = registerBlock("grass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+
+
+
     public static final RegistryObject<Block> SPRUCE_CRAFTING_TABLE = registerBlock("spruce_crafting_table",
             () -> new ModCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)));
 

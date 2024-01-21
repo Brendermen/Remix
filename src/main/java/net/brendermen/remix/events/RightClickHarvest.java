@@ -1,4 +1,4 @@
-package net.brendermen.remix.player;
+package net.brendermen.remix.events;
 
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.core.BlockPos;

@@ -4,7 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.brendermen.remix.block.ModBlocks;
 import net.brendermen.remix.util.ModTab;
 import net.brendermen.remix.item.ModItems;
-import net.brendermen.remix.player.RightClickHarvest;
+import net.brendermen.remix.events.RightClickHarvest;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
