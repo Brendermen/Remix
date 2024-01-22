@@ -311,23 +311,6 @@ public class ModTab {
         event.getEntries().putAfter(ModBlocks.CREAM_WOOL_STAIRS.get().asItem().getDefaultInstance(),
                 ModBlocks.CREAM_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-        event.getEntries().remove(Items.RED_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.ORANGE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.YELLOW_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.LIME_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.GREEN_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.CYAN_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.LIGHT_BLUE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.BLUE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.PURPLE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.MAGENTA_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.PINK_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.WHITE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.LIGHT_GRAY_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.GRAY_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.BLACK_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.BROWN_CARPET.getDefaultInstance());
-
         event.getEntries().putAfter(ModBlocks.FUCHSIA_WOOL_SLAB.get().asItem().getDefaultInstance(),
                 ModBlocks.FUCHSIA_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         event.getEntries().putAfter(ModBlocks.RED_WOOL_SLAB.get().asItem().getDefaultInstance(),
@@ -984,20 +967,33 @@ public class ModTab {
     }
 
     private static void INGREDIENTS(CreativeModeTabEvent.BuildContents event) {
-        event.accept(ModItems.FUCHSIA_DYE);
-        event.accept(ModItems.SCARLET_DYE);
-        event.accept(ModItems.AMBER_DYE);
-        event.accept(ModItems.LEMON_DYE);
-        event.accept(ModItems.FOREST_DYE);
-        event.accept(ModItems.TEAL_DYE);
-        event.accept(ModItems.CERULEAN_DYE);
-        event.accept(ModItems.AZURE_DYE);
-        event.accept(ModItems.INDIGO_DYE);
-        event.accept(ModItems.VIOLET_DYE);
-        event.accept(ModItems.VELVET_DYE);
-        event.accept(ModItems.TAN_DYE);
-        event.accept(ModItems.VIOLET_DYE);
-        event.accept(ModItems.CREAM_DYE);
+        event.getEntries().putBefore(Items.RED_DYE.getDefaultInstance(),
+                ModItems.FUCHSIA_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.ORANGE_DYE.getDefaultInstance(),
+                ModItems.SCARLET_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.YELLOW_DYE.getDefaultInstance(),
+                ModItems.AMBER_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.LIME_DYE.getDefaultInstance(),
+                ModItems.LEMON_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.GREEN_DYE.getDefaultInstance(),
+                ModItems.FOREST_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.CYAN_DYE.getDefaultInstance(),
+                ModItems.TEAL_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.LIGHT_BLUE_DYE.getDefaultInstance(),
+                ModItems.CERULEAN_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.BLUE_DYE.getDefaultInstance(),
+                ModItems.AZURE_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.PURPLE_DYE.getDefaultInstance(),
+                ModItems.INDIGO_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.MAGENTA_DYE.getDefaultInstance(),
+                ModItems.VIOLET_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.PINK_DYE.getDefaultInstance(),
+                ModItems.VELVET_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(ModItems.FUCHSIA_DYE.get().getDefaultInstance(),
+                ModItems.TAN_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModItems.TAN_DYE.get().getDefaultInstance(),
+                ModItems.CREAM_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
     }
 
     private static void SPAWN_EGGS(CreativeModeTabEvent.BuildContents event) {
