@@ -729,7 +729,66 @@ public class ModTab {
         event.getEntries().putAfter(ModBlocks.TAN_CONCRETE.get().asItem().getDefaultInstance(),
                 ModBlocks.CREAM_CONCRETE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
+        event.getEntries().putAfter(ModBlocks.FUCHSIA_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.FUCHSIA_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.RED_CONCRETE.getDefaultInstance(),
+                ModBlocks.RED_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.SCARLET_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.SCARLET_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.ORANGE_CONCRETE.getDefaultInstance(),
+                ModBlocks.ORANGE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AMBER_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.AMBER_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.YELLOW_CONCRETE.getDefaultInstance(),
+                ModBlocks.YELLOW_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LEMON_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.LEMON_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIME_CONCRETE.getDefaultInstance(),
+                ModBlocks.LIME_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.FOREST_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.FOREST_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.GREEN_CONCRETE.getDefaultInstance(),
+                ModBlocks.GREEN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TEAL_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.TEAL_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.CYAN_CONCRETE.getDefaultInstance(),
+                ModBlocks.CYAN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CERULEAN_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.CERULEAN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIGHT_BLUE_CONCRETE.getDefaultInstance(),
+                ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AZURE_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.AZURE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BLUE_CONCRETE.getDefaultInstance(),
+                ModBlocks.BLUE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.INDIGO_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.INDIGO_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.PURPLE_CONCRETE.getDefaultInstance(),
+                ModBlocks.PURPLE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VIOLET_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.VIOLET_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.MAGENTA_CONCRETE.getDefaultInstance(),
+                ModBlocks.MAGENTA_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VELVET_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.VELVET_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         event.getEntries().putAfter(Items.PINK_CONCRETE.getDefaultInstance(),
+                ModBlocks.PINK_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.WHITE_CONCRETE.getDefaultInstance(),
+                ModBlocks.WHITE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIGHT_GRAY_CONCRETE.getDefaultInstance(),
+                ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.GRAY_CONCRETE.getDefaultInstance(),
+                ModBlocks.GRAY_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BLACK_CONCRETE.getDefaultInstance(),
+                ModBlocks.BLACK_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BROWN_CONCRETE.getDefaultInstance(),
+                ModBlocks.BROWN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TAN_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.TAN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CREAM_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.CREAM_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+        event.getEntries().putAfter(ModBlocks.PINK_CONCRETE_STAIRS.get().asItem().getDefaultInstance(),
                 ModBlocks.POLISHED_WHITE_CONCRETE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         event.getEntries().putAfter(ModBlocks.POLISHED_WHITE_CONCRETE.get().asItem().getDefaultInstance(),
                 ModBlocks.POLISHED_LIGHT_GRAY_CONCRETE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "remix:block/velvet_concrete",
+    "side": "remix:block/velvet_concrete",
+    "top": "remix:block/velvet_concrete"
+  }
+}
