@@ -2,10 +2,7 @@ package net.brendermen.remix.util;
 
 import net.brendermen.remix.block.ModBlocks;
 import net.brendermen.remix.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -1053,6 +1050,8 @@ public class ModTab {
         event.getEntries().putAfter(ModItems.TAN_DYE.get().getDefaultInstance(),
                 ModItems.CREAM_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
+        event.getEntries().putBefore(Items.FLINT.getDefaultInstance(),
+                ModBlocks.ROCK.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
     }
 
     private static void SPAWN_EGGS(CreativeModeTabEvent.BuildContents event) {

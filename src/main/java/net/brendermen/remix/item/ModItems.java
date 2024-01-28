@@ -13,6 +13,8 @@ public class ModItems {
 
 
 
+
+
     public static final RegistryObject<Item> AMBER_DYE = ITEMS.register("amber_dye",
         () -> new Item(new Item.Properties()));
 
