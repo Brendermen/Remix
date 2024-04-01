@@ -2,10 +2,7 @@ package net.brendermen.remix.util;
 
 import net.brendermen.remix.block.ModBlocks;
 import net.brendermen.remix.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -310,23 +307,6 @@ public class ModTab {
                 ModBlocks.TAN_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         event.getEntries().putAfter(ModBlocks.CREAM_WOOL_STAIRS.get().asItem().getDefaultInstance(),
                 ModBlocks.CREAM_WOOL_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-
-        event.getEntries().remove(Items.RED_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.ORANGE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.YELLOW_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.LIME_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.GREEN_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.CYAN_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.LIGHT_BLUE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.BLUE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.PURPLE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.MAGENTA_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.PINK_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.WHITE_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.LIGHT_GRAY_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.GRAY_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.BLACK_CARPET.getDefaultInstance());
-        event.getEntries().remove(Items.BROWN_CARPET.getDefaultInstance());
 
         event.getEntries().putAfter(ModBlocks.FUCHSIA_WOOL_SLAB.get().asItem().getDefaultInstance(),
                 ModBlocks.FUCHSIA_CARPET.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -746,7 +726,66 @@ public class ModTab {
         event.getEntries().putAfter(ModBlocks.TAN_CONCRETE.get().asItem().getDefaultInstance(),
                 ModBlocks.CREAM_CONCRETE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
+        event.getEntries().putAfter(ModBlocks.FUCHSIA_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.FUCHSIA_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.RED_CONCRETE.getDefaultInstance(),
+                ModBlocks.RED_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.SCARLET_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.SCARLET_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.ORANGE_CONCRETE.getDefaultInstance(),
+                ModBlocks.ORANGE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AMBER_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.AMBER_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.YELLOW_CONCRETE.getDefaultInstance(),
+                ModBlocks.YELLOW_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.LEMON_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.LEMON_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIME_CONCRETE.getDefaultInstance(),
+                ModBlocks.LIME_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.FOREST_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.FOREST_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.GREEN_CONCRETE.getDefaultInstance(),
+                ModBlocks.GREEN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TEAL_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.TEAL_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.CYAN_CONCRETE.getDefaultInstance(),
+                ModBlocks.CYAN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CERULEAN_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.CERULEAN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIGHT_BLUE_CONCRETE.getDefaultInstance(),
+                ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.AZURE_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.AZURE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BLUE_CONCRETE.getDefaultInstance(),
+                ModBlocks.BLUE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.INDIGO_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.INDIGO_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.PURPLE_CONCRETE.getDefaultInstance(),
+                ModBlocks.PURPLE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VIOLET_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.VIOLET_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.MAGENTA_CONCRETE.getDefaultInstance(),
+                ModBlocks.MAGENTA_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.VELVET_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.VELVET_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         event.getEntries().putAfter(Items.PINK_CONCRETE.getDefaultInstance(),
+                ModBlocks.PINK_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.WHITE_CONCRETE.getDefaultInstance(),
+                ModBlocks.WHITE_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.LIGHT_GRAY_CONCRETE.getDefaultInstance(),
+                ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.GRAY_CONCRETE.getDefaultInstance(),
+                ModBlocks.GRAY_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BLACK_CONCRETE.getDefaultInstance(),
+                ModBlocks.BLACK_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(Items.BROWN_CONCRETE.getDefaultInstance(),
+                ModBlocks.BROWN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.TAN_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.TAN_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModBlocks.CREAM_CONCRETE.get().asItem().getDefaultInstance(),
+                ModBlocks.CREAM_CONCRETE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+        event.getEntries().putAfter(ModBlocks.PINK_CONCRETE_STAIRS.get().asItem().getDefaultInstance(),
                 ModBlocks.POLISHED_WHITE_CONCRETE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         event.getEntries().putAfter(ModBlocks.POLISHED_WHITE_CONCRETE.get().asItem().getDefaultInstance(),
                 ModBlocks.POLISHED_LIGHT_GRAY_CONCRETE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -984,20 +1023,35 @@ public class ModTab {
     }
 
     private static void INGREDIENTS(CreativeModeTabEvent.BuildContents event) {
-        event.accept(ModItems.FUCHSIA_DYE);
-        event.accept(ModItems.SCARLET_DYE);
-        event.accept(ModItems.AMBER_DYE);
-        event.accept(ModItems.LEMON_DYE);
-        event.accept(ModItems.FOREST_DYE);
-        event.accept(ModItems.TEAL_DYE);
-        event.accept(ModItems.CERULEAN_DYE);
-        event.accept(ModItems.AZURE_DYE);
-        event.accept(ModItems.INDIGO_DYE);
-        event.accept(ModItems.VIOLET_DYE);
-        event.accept(ModItems.VELVET_DYE);
-        event.accept(ModItems.TAN_DYE);
-        event.accept(ModItems.VIOLET_DYE);
-        event.accept(ModItems.CREAM_DYE);
+        event.getEntries().putBefore(Items.RED_DYE.getDefaultInstance(),
+                ModItems.FUCHSIA_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.ORANGE_DYE.getDefaultInstance(),
+                ModItems.SCARLET_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.YELLOW_DYE.getDefaultInstance(),
+                ModItems.AMBER_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.LIME_DYE.getDefaultInstance(),
+                ModItems.LEMON_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.GREEN_DYE.getDefaultInstance(),
+                ModItems.FOREST_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.CYAN_DYE.getDefaultInstance(),
+                ModItems.TEAL_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.LIGHT_BLUE_DYE.getDefaultInstance(),
+                ModItems.CERULEAN_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.BLUE_DYE.getDefaultInstance(),
+                ModItems.AZURE_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.PURPLE_DYE.getDefaultInstance(),
+                ModItems.INDIGO_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.MAGENTA_DYE.getDefaultInstance(),
+                ModItems.VIOLET_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(Items.PINK_DYE.getDefaultInstance(),
+                ModItems.VELVET_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putBefore(ModItems.FUCHSIA_DYE.get().getDefaultInstance(),
+                ModItems.TAN_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.getEntries().putAfter(ModItems.TAN_DYE.get().getDefaultInstance(),
+                ModItems.CREAM_DYE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+        event.getEntries().putBefore(Items.FLINT.getDefaultInstance(),
+                ModBlocks.ROCK.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
     }
 
     private static void SPAWN_EGGS(CreativeModeTabEvent.BuildContents event) {

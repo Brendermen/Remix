@@ -1,0 +1,7 @@
+{
+  "parent": "remix:block/template_floor_layer",
+  "textures": {
+    "texture": "remix:block/rock"
+  },
+  "render_type": "cutout"
+}

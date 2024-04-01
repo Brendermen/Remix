@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "remix:block/cerulean_concrete",
+    "side": "remix:block/cerulean_concrete",
+    "top": "remix:block/cerulean_concrete"
+  }
+}
