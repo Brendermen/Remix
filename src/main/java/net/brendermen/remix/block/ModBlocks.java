@@ -23,10 +23,52 @@ public class ModBlocks {
 
 
 
-    //<editor-fold desc="WOOD">
-    public static final RegistryObject<Block> OAK_BOARDS = registerBlock("oak_boards",
+    public static final RegistryObject<Block> OAK_PANELS = registerBlock("oak_panels",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
+    public static final RegistryObject<Block> SANDED_OAK = registerBlock("sanded_oak",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> OAK_BEAM = registerBlock("oak_beam",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> OAK_TRIM = registerBlock("oak_trim",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> DEEP_PRISMARINE = registerBlock("deep_prismarine",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+    public static final RegistryObject<Block> POLISHED_DEEP_PRISMARINE = registerBlock("polished_deep_prismarine",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+    public static final RegistryObject<Block> DEEP_PRISMARINE_BRICKS = registerBlock("deep_prismarine_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+
+
+
+    public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE = registerBlock("deep_elder_prismarine",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+    public static final RegistryObject<Block> POLISHED_DEEP_ELDER_PRISMARINE = registerBlock("polished_deep_elder_prismarine",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+    public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE_BRICKS = registerBlock("deep_elder_prismarine_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+    public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE_TILES = registerBlock("deep_elder_prismarine_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+
+
+
+
+
+
+
+    //<editor-fold desc="WOOD">
+
+    public static final RegistryObject<Block> OAK_BOARDS = registerBlock("oak_boards",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> BIRCH_BOARDS = registerBlock("birch_boards",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
