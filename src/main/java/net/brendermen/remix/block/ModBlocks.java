@@ -122,13 +122,103 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> ELDER_SEA_LAMP = registerBlock("elder_sea_lamp",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+
+    public static final RegistryObject<Block> DEEP_SEA_LAMP = registerBlock("deep_sea_lamp",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+
+
+    public static final RegistryObject<Block> DEEP_ELDER_SEA_LAMP = registerBlock("deep_elder_sea_lamp",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+
+
+
+    public static final RegistryObject<Block> POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+
+    public static final RegistryObject<Block> DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+
+    public static final RegistryObject<Block> DRIPSTONE_TILES = registerBlock("dripstone_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+
+    public static final RegistryObject<Block> CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+
+    public static final RegistryObject<Block> DRIPSTONE_PILLAR = registerBlock("dripstone_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+
+
+
+    public static final RegistryObject<Block> TUFF_BRICKS = registerBlock("tuff_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+
+    public static final RegistryObject<Block> TUFF_TILES = registerBlock("tuff_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+
+    public static final RegistryObject<Block> CHISELED_TUFF = registerBlock("chiseled_tuff",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+
+    public static final RegistryObject<Block> TUFF_PILLAR = registerBlock("tuff_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+
+
+
+    public static final RegistryObject<Block> CALCITE_BRICKS = registerBlock("calcite_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+
+    public static final RegistryObject<Block> CALCITE_TILES = registerBlock("calcite_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+
+    public static final RegistryObject<Block> CHISELED_CALCITE = registerBlock("chiseled_calcite",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+
+    public static final RegistryObject<Block> CALCITE_PILLAR = registerBlock("calcite_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+
+
+
+
+    public static final RegistryObject<Block> NETHERRACK_BRICKS = registerBlock("netherrack_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+
+    public static final RegistryObject<Block> NETHERRACK_TILES = registerBlock("netherrack_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+
+    public static final RegistryObject<Block> CHISELED_NETHERRACK = registerBlock("chiseled_netherrack",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+
+    public static final RegistryObject<Block> NETHERRACK_PILLAR = registerBlock("netherrack_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+
+
+
+    public static final RegistryObject<Block> POLISHED_MAGMA = registerBlock("polished_magma",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+
+    public static final RegistryObject<Block> MAGMA_BRICKS = registerBlock("magma_bricks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+
+    public static final RegistryObject<Block> MAGMA_TILES = registerBlock("magma_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+
+    public static final RegistryObject<Block> CHISELED_MAGMA = registerBlock("chiseled_magma",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+
+    public static final RegistryObject<Block> MAGMA_PILLAR = registerBlock("magma_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
 
 
 
 
 
 
+    public static final RegistryObject<Block> BLACKSTONE_TILES = registerBlock("blackstone_tiles",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 
+    public static final RegistryObject<Block> BLACKSTONE_PILLAR = registerBlock("blackstone_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 
 
 
