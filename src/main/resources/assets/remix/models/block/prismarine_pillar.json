@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "remix:block/prismarine_pillar_top",
+    "side": "remix:block/prismarine_pillar"
+  }
+}
