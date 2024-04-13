@@ -24,16 +24,16 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> OAK_PANELS = registerBlock("oak_panels",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> SANDED_OAK = registerBlock("sanded_oak",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> OAK_BEAM = registerBlock("oak_beam",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> OAK_TRIM = registerBlock("oak_trim",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
 
 
@@ -41,16 +41,16 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> DEEP_PRISMARINE = registerBlock("deep_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> POLISHED_DEEP_PRISMARINE = registerBlock("polished_deep_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> DEEP_PRISMARINE_BRICKS = registerBlock("deep_prismarine_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> CHISELED_DEEP_PRISMARINE = registerBlock("chiseled_deep_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> DEEP_PRISMARINE_PILLAR = registerBlock("deep_prismarine_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
@@ -59,19 +59,19 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE = registerBlock("deep_elder_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> POLISHED_DEEP_ELDER_PRISMARINE = registerBlock("polished_deep_elder_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE_BRICKS = registerBlock("deep_elder_prismarine_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE_TILES = registerBlock("deep_elder_prismarine_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> CHISELED_DEEP_ELDER_PRISMARINE = registerBlock("chiseled_deep_elder_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> DEEP_ELDER_PRISMARINE_PILLAR = registerBlock("deep_elder_prismarine_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
@@ -82,16 +82,16 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> PRISMARINE_TILES = registerBlock("prismarine_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> ELDER_PRISMARINE_TILES = registerBlock("elder_prismarine_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> CHISELED_ELDER_PRISMARINE = registerBlock("chiseled_elder_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> CHISELED_PRISMARINE = registerBlock("chiseled_prismarine",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
 
     public static final RegistryObject<Block> ELDER_PRISMARINE_PILLAR = registerBlock("elder_prismarine_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)));
@@ -123,28 +123,28 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> ELDER_SEA_LAMP = registerBlock("elder_sea_lamp",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
 
     public static final RegistryObject<Block> DEEP_SEA_LAMP = registerBlock("deep_sea_lamp",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
 
 
     public static final RegistryObject<Block> DEEP_ELDER_SEA_LAMP = registerBlock("deep_elder_sea_lamp",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));
 
 
 
     public static final RegistryObject<Block> POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
 
     public static final RegistryObject<Block> DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
 
     public static final RegistryObject<Block> DRIPSTONE_TILES = registerBlock("dripstone_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
 
     public static final RegistryObject<Block> CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
 
     public static final RegistryObject<Block> DRIPSTONE_PILLAR = registerBlock("dripstone_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
@@ -152,13 +152,13 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> TUFF_BRICKS = registerBlock("tuff_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)));
 
     public static final RegistryObject<Block> TUFF_TILES = registerBlock("tuff_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)));
 
     public static final RegistryObject<Block> CHISELED_TUFF = registerBlock("chiseled_tuff",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)));
 
     public static final RegistryObject<Block> TUFF_PILLAR = registerBlock("tuff_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
@@ -166,13 +166,13 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> CALCITE_BRICKS = registerBlock("calcite_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
 
     public static final RegistryObject<Block> CALCITE_TILES = registerBlock("calcite_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
 
     public static final RegistryObject<Block> CHISELED_CALCITE = registerBlock("chiseled_calcite",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
 
     public static final RegistryObject<Block> CALCITE_PILLAR = registerBlock("calcite_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
@@ -181,13 +181,13 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> NETHERRACK_BRICKS = registerBlock("netherrack_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
 
     public static final RegistryObject<Block> NETHERRACK_TILES = registerBlock("netherrack_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
 
     public static final RegistryObject<Block> CHISELED_NETHERRACK = registerBlock("chiseled_netherrack",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
 
     public static final RegistryObject<Block> NETHERRACK_PILLAR = registerBlock("netherrack_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
@@ -195,16 +195,16 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> POLISHED_MAGMA = registerBlock("polished_magma",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
 
     public static final RegistryObject<Block> MAGMA_BRICKS = registerBlock("magma_bricks",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
 
     public static final RegistryObject<Block> MAGMA_TILES = registerBlock("magma_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
 
     public static final RegistryObject<Block> CHISELED_MAGMA = registerBlock("chiseled_magma",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
 
     public static final RegistryObject<Block> MAGMA_PILLAR = registerBlock("magma_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK)));
@@ -215,7 +215,7 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> BLACKSTONE_TILES = registerBlock("blackstone_tiles",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 
     public static final RegistryObject<Block> BLACKSTONE_PILLAR = registerBlock("blackstone_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
@@ -224,44 +224,93 @@ public class ModBlocks {
 
 
 
+
+    public static final RegistryObject<Block> SLATE = registerBlock("slate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+    public static final RegistryObject<Block> POLISHED_SLATE = registerBlock("polished_slate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+    public static final RegistryObject<Block> SLATE_BRICKS = registerBlock("slate_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+    public static final RegistryObject<Block> SLATE_TILES = registerBlock("slate_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+    public static final RegistryObject<Block> CHISELED_SLATE = registerBlock("chiseled_slate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+    public static final RegistryObject<Block> SLATE_PILLAR = registerBlock("slate_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //<editor-fold desc="WOOD">
 
     public static final RegistryObject<Block> OAK_BOARDS = registerBlock("oak_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> BIRCH_BOARDS = registerBlock("birch_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)));
 
 
     public static final RegistryObject<Block> SPRUCE_BOARDS = registerBlock("spruce_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));
 
     public static final RegistryObject<Block> SPRUCE_CRAFTING_TABLE = registerBlock("spruce_crafting_table",
             () -> new ModCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)));
 
 
     public static final RegistryObject<Block> DARK_OAK_BOARDS = registerBlock("dark_oak_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
 
 
     public static final RegistryObject<Block> ACACIA_BOARDS = registerBlock("acacia_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 
 
     public static final RegistryObject<Block> JUNGLE_BOARDS = registerBlock("jungle_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)));
 
 
     public static final RegistryObject<Block> MANGROVE_BOARDS = registerBlock("mangrove_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)));
 
 
     public static final RegistryObject<Block> CRIMSON_BOARDS = registerBlock("crimson_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
 
 
     public static final RegistryObject<Block> WARPED_BOARDS = registerBlock("warped_boards",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
     //</editor-fold>
 
     //<editor-fold desc="NATURAL">
@@ -275,7 +324,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
 
     public static final RegistryObject<Block> CHISELED_DIRT = registerBlock("chiseled_dirt",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
 
     public static final RegistryObject<Block> DIRT_PILLAR = registerBlock("dirt_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
@@ -288,7 +337,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)));
 
     public static final RegistryObject<Block> CHISELED_PACKED_MUD = registerBlock("chiseled_packed_mud",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)));
 
     public static final RegistryObject<Block> PACKED_MUD_PILLAR = registerBlock("packed_mud_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)));
@@ -303,7 +352,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD)));
 
     public static final RegistryObject<Block> CHISELED_MUD = registerBlock("chiseled_mud",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MUD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD)));
 
     public static final RegistryObject<Block> MUD_PILLAR = registerBlock("mud_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MUD)));
@@ -319,7 +368,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CLAY)));
 
     public static final RegistryObject<Block> CHISELED_CLAY = registerBlock("chiseled_clay",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CLAY)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CLAY)));
 
     public static final RegistryObject<Block> CLAY_PILLAR = registerBlock("clay_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CLAY)));
